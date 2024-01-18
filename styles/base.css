@@ -64,9 +64,15 @@ footer {
 @media (max-width: 600px) {
     nav {
         flex-direction: column;
+        text-align: center;
     }
 
     nav a {
+        display: block;
         margin: 5px 0;
+    }
+
+    nav a:hover {
+        display: block;
     }
 }
