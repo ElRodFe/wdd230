@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Salsa&display=swap');
-
-
 body {
     background-color: #f4f4f4;
     color: #333;
@@ -30,14 +27,12 @@ nav {
 }
 
 nav a {
-    display: block;
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
 }
 
 nav a:hover {
-    display: block;
     color: #000000;
     background-color: #fff;
     text-decoration: none;
