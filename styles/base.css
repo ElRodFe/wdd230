@@ -17,6 +17,10 @@ img {
     max-width: 100px;
 }
 
+#menu {
+    display: none;
+}
+
 nav {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
@@ -67,12 +71,40 @@ footer {
 
 @media (max-width: 600px) {
     nav {
+        display: none;
         flex-direction: column;
     }
 
     nav a {
-        display: block;
+        display: none;
         margin: 5px 0;
+    }
+
+    nav.open {
+        display: flex;
+    }
+
+    #menu {
+        display: block;
+        font-size: 1.5rem;
+        border: 0.5px solid white;
+        padding: 0.25rem 0.75rem;
+        background-color: black;
+        color: white;
+        position: absolute;
+        top: 0;
+    }
+
+    #menu::before {
+        content: "☰";
+    }
+
+    #menu.open::before {
+        content: "X";
+    }
+
+    .open a {
+        display: block;
     }
 
     main {

@@ -11,6 +11,10 @@ header {
     background-color: rgb(50, 50, 117);
 }
 
+#menu {
+    display: none;
+}
+
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
