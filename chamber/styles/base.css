@@ -8,9 +8,12 @@ body {
 
 header {
     display: flex;
+    position: sticky;
+    top: 10px;
     align-items: center;
     background-color: #2A5088;
     color: #FEFEFE;
+    z-index: 1;
 }
 
 .logo {
@@ -30,8 +33,11 @@ h1 {
 
 .navigation {
     display: flex;
+    position: sticky;
+    top: 8.5rem;
     background-color: #2A5088;
     align-items: center;
+    z-index: 1;
 
 }
 
