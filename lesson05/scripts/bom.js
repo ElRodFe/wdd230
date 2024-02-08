@@ -23,3 +23,10 @@ button.addEventListener("click", function () {
         })
     }
 })
+
+// Adding entrys with "Enter" key
+favchap.addEventListener("keyup", (e) => {
+    if (e.code === "Enter") {
+        button.click();
+    }
+})
