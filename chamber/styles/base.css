@@ -152,7 +152,7 @@ h3 {
 
     .navigation {
         display: none;
-        position: relative;
+        position: static;
         flex-direction: column;
     }
 
