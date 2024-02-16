@@ -9,13 +9,13 @@
     <meta property="og:image" content="https://live.staticflickr.com/596/32360030171_f80c976cb5_o.jpg">
     <meta property="og:url" content="">
     <title>Mercedes Chamber of Commerce</title>
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" href="images/logo.webp">
     <link rel="stylesheet" href="styles/base.css">
 </head>
 
 <body>
     <header>
-        <img class="logo" src="images/logo.png" alt="logo">
+        <img class="logo" src="images/logo.webp" alt="logo">
         <h1>Mercedes - Chamber of Commerce</h1>
         <div id="mode">
             🕶️
@@ -30,7 +30,11 @@
 
     </nav>
     <div class="hero-box">
-        <img id="hero-img" src="images/hero-image.png" alt="hero image">
+        <picture>
+            <source srcset="images/assignment-image-small.webp" media="(max-width: 500px)">
+            <source srcset="images/assignment-image-medium.webp" media="(max-width: 1000px)">
+            <img id="hero-img" src="images/assignment-image-large.webp" alt="hero image" width="1500" height="1000">
+        </picture>
         <button class="call-to-action">Join Now!</button>
     </div>
     <main>
@@ -44,12 +48,12 @@
         </section>
         <section class="weather">
             <h3>Weather</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            </p>
-
+            <label for="temp">Temperature (in °F)</label>
+            <input type="text" id="temp" name="fname"><br><br>
+            <label for="wind">Wind Speed: (in mph)</label>
+            <input type="text" id="wind" name="lname"><br><br>
+            <button class="weather-button">Calculate WindChill</button>
+            <p class="windchill"></p>
         </section>
         <section class="companies">
             <h3>Companies</h3>
@@ -68,6 +72,7 @@
     </footer>
     <script src="scripts/responsive-menu.js"></script>
     <script src="scripts/dark-mode.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 
 </html>
