@@ -139,7 +139,7 @@ h3 {
 .grid-container {
     display: grid;
     padding: 5px;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 350px 1fr;
     grid-template-rows: auto;
     min-height: 100vh;
 }
@@ -151,6 +151,15 @@ h3 {
 }
 
 .content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content img {
+    width: 50%;
+    height: auto;
     padding: 20px;
 }
 
