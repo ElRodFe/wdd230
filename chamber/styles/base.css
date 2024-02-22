@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Roboto&display=swap');
 
+/* Main page */
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #FEFEFE;
@@ -16,7 +18,6 @@ body {
 
 header {
     display: flex;
-    position: sticky;
     top: 10px;
     align-items: center;
     background-color: #2A5088;
@@ -41,7 +42,6 @@ h1 {
 
 .navigation {
     display: flex;
-    position: sticky;
     top: 8.5rem;
     background-color: #2A5088;
     border: 2px solid #FEFEFE;
@@ -131,6 +131,27 @@ h3 {
 
 .companies {
     grid-column: 1/3;
+}
+
+
+/* Discover page */
+
+.grid-container {
+    display: grid;
+    padding: 5px;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: auto;
+    min-height: 100vh;
+}
+
+.sidebar {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.content {
+    padding: 20px;
 }
 
 @media (max-width: 600px) {
