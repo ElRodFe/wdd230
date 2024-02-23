@@ -237,4 +237,22 @@ h3 {
         display: block;
     }
 
+    /*Discover Page*/
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        grid-template-rows: auto;
+
+    }
+
+    .content img {
+        width: 90%;
+    }
+
+    .content img:hover {
+        box-shadow: none;
+        width: 90%;
+    }
+
 }
