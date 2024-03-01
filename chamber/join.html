@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:type" content="Website">
+    <meta property="og:image" content="https://live.staticflickr.com/596/32360030171_f80c976cb5_o.jpg">
+    <meta property="og:url" content="">
+    <title>Mercedes Chamber of Commerce</title>
+    <link rel="icon" href="images/logo.webp">
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/logo.webp" alt="logo">
+        <h1>Mercedes - Chamber of Commerce</h1>
+        <div id="mode">
+            🌛
+        </div>
+    </header>
+    <button id="menu"></button>
+    <nav class="navigation">
+        <a href="">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="">Directory</a>
+        <a href="">Join</a>
+
+    </nav>
+    <main>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>First Name*<input type="text" id="fname" name="fname" required></label>
+                <label>Last Name*<input type="text" id="lname" name="lname" required></label>
+                <label>Title or Position*<input type="text" id="title" name="title" pattern="[A-Za-z\s\-]{7,}$"
+                        placeholder="Minimum 7 characters" required></label>
+                <label>Email*<input type="email" id="email" name="email" placeholder="someone@gmail.com"
+                        required></label>
+                <label>Phone Number*<input type="tel" id="phone" name="phone" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Businnes Information</legend>
+                <label>Businnes/Organization's Name*<input type="text" id="bname" name="bname" required></label>
+                <label for="bdescription">Businnes/Organization's Description</label>
+                <textarea id="bdescription" name="bdescription" rows="4" cols="50"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Membership Information</legend>
+                <div>Membership Level</div>
+                <label><input type="radio" name="membershiplevel" value="NP Membership">NP Membership is for non profit
+                    organizations and there is no fee.</label>
+                <label><input type="radio" name="membershiplevel" value="Bronze Membership">Bronze Membership</label>
+                <label><input type="radio" name="membershiplevel" value="Silver Membership">Silver Membership</label>
+                <label><input type="radio" name="membershiplevel" value="Gold Membership">Gold Membership</label>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p> &copy;2024 | Mercedes Chamber</p>
+        <p>WDD 230 Project | Elias Rodriguez</p>
+        <p id=" last-modified"></p>
+    </footer>
+    <script src="scripts/responsive-menu.js"></script>
+    <script src="scripts/dark-mode.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+
+</html>
