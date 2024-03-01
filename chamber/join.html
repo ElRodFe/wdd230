@@ -51,14 +51,54 @@
 
             <fieldset>
                 <legend>Membership Information</legend>
-                <div>Membership Level</div>
-                <label><input type="radio" name="membershiplevel" value="NP Membership">NP Membership is for non profit
-                    organizations and there is no fee.</label>
-                <label><input type="radio" name="membershiplevel" value="Bronze Membership">Bronze Membership</label>
-                <label><input type="radio" name="membershiplevel" value="Silver Membership">Silver Membership</label>
+                <div class="m-level">Membership Level</div>
+                <label><input type="radio" name="membershiplevel" value="NP Membership">NP Membership.</label>
+                <label><input type="radio" name="membershiplevel" value="Bronze Membership">Bronze
+                    Membership</label>
+                <label><input type="radio" name="membershiplevel" value="Silver Membership">Silver
+                    Membership</label>
                 <label><input type="radio" name="membershiplevel" value="Gold Membership">Gold Membership</label>
             </fieldset>
+            <input type="hidden" id="datetime" name="datetime" value="">
+            <input type="submit" id="sbutton" name="sbutton" value="Join Community">
         </form>
+
+        <div class="membershipBenefits">
+            <h2>Membership Benefits</h2>
+
+            <div id="NP_Membership_Benefits">
+                <h3>NP Membership Benefits:</h3>
+                <ul>
+                    <li>Basic access to community events</li>
+                    <li>Networking opportunities with other non-profit organizations</li>
+                    <li>Regular updates on industry news and trends</li>
+                </ul>
+            </div>
+
+            <div id="Bronze_Membership_Benefits">
+                <h3>Bronze Membership Benefits:</h3>
+                <ul>
+                    <li>Exclusive access to community events</li>
+                    <li>Email newsletters with industry updates</li>
+                </ul>
+            </div>
+
+            <div id="Silver_Membership_Benefits">
+                <h3>Silver Membership Benefits:</h3>
+                <ul>
+                    <li>Enhanced access to community events</li>
+                    <li>Priority support from community leaders</li>
+                </ul>
+            </div>
+
+            <div id="Gold_Membership_Benefits">
+                <h3>Gold Membership Benefits:</h3>
+                <ul>
+                    <li>VIP access to all community events</li>
+                    <li>Personalized assistance for your organization</li>
+                </ul>
+            </div>
+        </div>
     </main>
     <footer>
         <p> &copy;2024 | Mercedes Chamber</p>
@@ -67,7 +107,7 @@
     </footer>
     <script src="scripts/responsive-menu.js"></script>
     <script src="scripts/dark-mode.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/join.js"></script>
 </body>
 
 </html>
