@@ -260,13 +260,14 @@ h3 {
 /*Join Page*/
 
 form {
-    width: 100%;
+    width: 85%;
     margin: 2rem;
     text-align: left;
 }
 
 fieldset {
-    border: 1px solid #000000;
+    width: 100%;
+    border: 2px solid #000000;
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 15px;
@@ -297,6 +298,14 @@ textarea {
     border-radius: 4px;
 }
 
+input:required {
+    border-left: solid 5px red;
+}
+
+input:required:valid {
+    border-left: solid 5px green;
+}
+
 input[type="submit"] {
     margin-left: 1rem;
     background-color: #2A5088;
@@ -318,7 +327,8 @@ input[type="radio"] {
 }
 
 .membershipBenefits {
-    margin-top: 20px;
+    margin: 2rem;
+    border-radius: 4px;
 }
 
 ul {
@@ -330,9 +340,17 @@ li {
     margin-bottom: 8px;
 }
 
-/* Styles for radio buttons */
 .m-level {
     font-size: 1.2em;
     font-weight: bold;
     margin-bottom: 10px;
+}
+
+/*---THANKYOU PAGE----*/
+
+#thankyou {
+    margin: auto;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
 }
