@@ -1,0 +1,23 @@
+{
+    "familyName": "Rodriguez",
+    "dateFamilyMovedIntoWard": 1995,
+    "numberOfMembersOfTheFamily": 3,
+    "visitedByBishopric": true,
+    "members": [
+        {
+            "name": "Monica",
+            "gender": "Female",
+            "Birthdate": "22/06/1973"
+        },
+        {
+            "name": "Elias",
+            "gender": "Male",
+            "Birthdate": "30/10/1997"
+        },
+        {
+            "name": "Eliseo",
+            "gender": "Male",
+            "Birthdate": "28/11/1999"
+        }
+    ]
+}
