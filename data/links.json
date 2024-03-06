@@ -1,0 +1,109 @@
+{
+    "lessons": [
+        {
+            "lesson": "01",
+            "links": [
+                {
+                    "title": "Holy Layout",
+                    "url": "week01/holygrail.html"
+                }
+            ]
+        },
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "title": "Design Principles",
+                    "url": "lesson02/design-principles.html"
+                }
+            ]
+        },
+        {
+            "lesson": "03",
+            "links": [
+                {
+                    "title": "CSS Combinators",
+                    "url": "images/combinators-exercises-completed.PNG"
+                },
+                {
+                    "title": "Pseudo Elements",
+                    "url": "https://codepen.io/ElRodFe/pen/RwdZJjJ"
+                },
+                {
+                    "title": "Responsive Menu",
+                    "url": "https://codepen.io/ElRodFe/pen/gOExjbJ"
+                }
+            ]
+        },
+        {
+            "lesson": "04",
+            "links": [
+                {
+                    "title": "CSS Pseudo-Classes",
+                    "url": "https://codepen.io/ElRodFe/pen/NWJXEKO?editors=0100"
+                }
+            ]
+        },
+        {
+            "lesson": "05",
+            "links": [
+                {
+                    "title": "BoM Favorite Chapters Application",
+                    "url": "lesson05/bom.html"
+                }
+            ]
+        },
+        {
+            "lesson": "06",
+            "links": [
+                {
+                    "title": "WebP",
+                    "url": "images/landscape.webp"
+                },
+                {
+                    "title": "Responsive Images",
+                    "url": "lesson06/responsive-images.html"
+                }
+            ]
+        },
+        {
+            "lesson": "07",
+            "links": [
+                {
+                    "title": "Lazy Load Images",
+                    "url": "lesson07/lazyload.html"
+                },
+                {
+                    "title": "Local Storage - BOM",
+                    "url": "lesson07/bom.html"
+                }
+            ]
+        },
+        {
+            "lesson": "08",
+            "links": [
+                {
+                    "title": "HTML Tables",
+                    "url": "lesson08/tablebuild.html"
+                },
+                {
+                    "title": "HTML Forms",
+                    "url": "lesson08/form-start/index.html"
+                }
+            ]
+        },
+        {
+            "lesson": "09",
+            "links": [
+                {
+                    "title": "JSON Activity",
+                    "url": "lesson09/new-ward-members.json"
+                },
+                {
+                    "title": "Fetch Activity",
+                    "url": "lesson09/prophets.html"
+                }
+            ]
+        }
+    ]
+}
