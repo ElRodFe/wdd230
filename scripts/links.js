@@ -11,10 +11,8 @@ async function getLinks(url) {
 
 const displayLinks = (weeks) => {
     weeks.forEach((week) => {
-        const li = document.createElement("li");
         const h4 = document.createElement("h4");
         h4.textContent = `Lesson ${week.lesson}: `;
-        li.appendChild(h4);
 
         week.links.forEach((lesson) => {
             const a = document.createElement("a");
@@ -22,10 +20,10 @@ const displayLinks = (weeks) => {
             a.setAttribute("href", `${lesson.url}`);
             a.textContent = `${lesson.title}  -  `;
 
-            li.appendChild(a);
+            h4.appendChild(a);
 
         });
-        ul.appendChild(li);
+        ul.appendChild(h4);
     });
 };
 
