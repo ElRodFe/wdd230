@@ -1,7 +1,7 @@
 {
     "lessons": [
         {
-            "lesson": "Lesson 01:",
+            "lesson": "01:",
             "links": [
                 {
                     "title": "Holy Layout",
@@ -10,7 +10,7 @@
             ]
         },
         {
-            "lesson": "Lesson 02:",
+            "lesson": "02:",
             "links": [
                 {
                     "title": "Design Principles",
@@ -19,7 +19,7 @@
             ]
         },
         {
-            "lesson": "Lesson 03:",
+            "lesson": "03:",
             "links": [
                 {
                     "title": "CSS Combinators",
@@ -36,7 +36,7 @@
             ]
         },
         {
-            "lesson": "Lesson 04:",
+            "lesson": "04:",
             "links": [
                 {
                     "title": "CSS Pseudo-Classes",
@@ -45,7 +45,7 @@
             ]
         },
         {
-            "lesson": "Lesson 05:",
+            "lesson": "05:",
             "links": [
                 {
                     "title": "BoM Favorite Chapters Application",
@@ -54,7 +54,7 @@
             ]
         },
         {
-            "lesson": "Lesson 06:",
+            "lesson": "06:",
             "links": [
                 {
                     "title": "WebP",
@@ -67,7 +67,7 @@
             ]
         },
         {
-            "lesson": "Lesson 07:",
+            "lesson": "07:",
             "links": [
                 {
                     "title": "Lazy Load Images",
@@ -80,7 +80,7 @@
             ]
         },
         {
-            "lesson": "Lesson 08:",
+            "lesson": "08:",
             "links": [
                 {
                     "title": "HTML Tables",
@@ -93,7 +93,7 @@
             ]
         },
         {
-            "lesson": "Lesson 09:",
+            "lesson": "09:",
             "links": [
                 {
                     "title": "JSON Activity",
