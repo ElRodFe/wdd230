@@ -12,6 +12,9 @@ async function getLinks(url) {
 const displayLinks = (weeks) => {
     weeks.forEach((week) => {
         const li = document.createElement("li");
+        const h4 = document.createElement("h4");
+        h4.textContent = `${week.lesson}`;
+        li.appendChild(h4);
 
         week.links.forEach((lesson) => {
             const a = document.createElement("a");
@@ -20,8 +23,8 @@ const displayLinks = (weeks) => {
             a.textContent = `${lesson.title} | `;
 
             li.appendChild(a);
-        });
 
+        });
         ul.appendChild(li);
     });
 };
