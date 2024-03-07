@@ -1,0 +1,36 @@
+{
+    "members": [
+        {
+            "name": "Club de Remeros Mercedes",
+            "address": "De la Ribera 949",
+            "phone": "+59898727533",
+            "weburl": "https://clubremerosmercedes.com.uy/",
+            "image": "chamber/images/club-remeros.webp",
+            "membershiplevel": "Gold Membership"
+        },
+        {
+            "name": "Casa Caulín",
+            "address": "Haedo 300",
+            "phone": "+59898019209",
+            "weburl": "https://caulinycia.com.uy/",
+            "image": "chamber/images/caulín.webp",
+            "membershiplevel": "Bronze Membership"
+        },
+        {
+            "name": "Barraca San Pedro",
+            "address": "Rodo 1027",
+            "phone": "+59845322660",
+            "weburl": "https://www.facebook.com/barraca.sanpedro.7/",
+            "image": "chamber/images/san-pedro.webp",
+            "membershiplevel": "Silver Membership"
+        },
+        {
+            "name": "Abitab",
+            "address": "Don Bosco 734 Local 22 (Mercedes's Shopping)",
+            "phone": "+59845328315",
+            "weburl": "https://www.abitab.com.uy/innovaportal/v/602/11/abitab/agencia-27_13",
+            "image": "chamber/images/abitab.webp",
+            "membershiplevel": "Gold Membership"
+        },
+    ]
+}
