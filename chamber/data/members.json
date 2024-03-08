@@ -32,5 +32,29 @@
             "image": "chamber/images/abitab.webp",
             "membershiplevel": "Gold Membership"
         },
+        {
+            "name": "Tata",
+            "address": "Don Bosco entre Artigas y Colón",
+            "phone": "08008282",
+            "weburl": "https://www.tata.com.uy/",
+            "image": "chamber/images/tata.webp",
+            "membershiplevel": "Gold Membership"
+        },
+        {
+            "name": "Farmacia San Roque",
+            "address": "Colón 278",
+            "phone": "08003456",
+            "weburl": "https://www.sanroque.com.uy/tiendas/san-roque-32-mercedes-centro_25",
+            "image": "chamber/images/san-roque.webp",
+            "membershiplevel": "Silver Membership"
+        },
+        {
+            "name": "Macri",
+            "address": " Leandro Gomez 230",
+            "phone": "+59845322047",
+            "weburl": "https://www.macri.uy/",
+            "image": "chamber/images/macri.webp",
+            "membershiplevel": "Bronze Membership"
+        },
     ]
 }
