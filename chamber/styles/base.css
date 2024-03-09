@@ -353,3 +353,77 @@ li {
     width: 100%;
     padding: 10px;
 }
+
+/*----DIRECTORY PAGE----*/
+
+.directory-main {
+    display: block;
+}
+
+.toggle {
+    padding: 1rem;
+}
+
+.toggle button {
+    padding: .8rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+.toggle button:hover {
+    background-color: #2A5088;
+}
+
+/* Grid view */
+#member-cards.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+#member-cards.grid section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#member-cards.grid img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px%;
+}
+
+/* List view */
+
+#member-cards.list section {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+#member-cards.list img {
+    display: none;
+}
+
+#member-cards.list h3 {
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+#member-cards.list p {
+    margin: 5px 0;
+}
+
+#member-cards.list a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#member-cards.list a:hover {
+    text-decoration: underline;
+}

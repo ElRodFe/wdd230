@@ -18,6 +18,7 @@ function displayinfo(members) {
         const weburl = document.createElement("a");
         const membLvl = document.createElement("p");
 
+        img.setAttribute("class", "member-logo");
         img.setAttribute("src", `${member.image}`);
         img.setAttribute("alt", `${member.name} logo`);
         img.setAttribute("loading", "lazy");
