@@ -104,6 +104,15 @@
                     "url": "lesson09/prophets.html"
                 }
             ]
+        },
+        {
+            "lesson": "10:",
+            "links": [
+                {
+                    "title": "Consuming a Weather API",
+                    "url": "lesson10/weather.html"
+                }
+            ]
         }
     ]
 }
