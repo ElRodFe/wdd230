@@ -32,8 +32,8 @@
     <div class="hero-box">
         <picture>
             <source srcset="images/assignment-image-small.webp" media="(max-width: 500px)">
-            <source srcset="images/assignment-image-medium.webp" media="(max-width: 1000px)">
-            <img id="hero-img" src="images/assignment-image-large.webp" alt="hero image" width="1500" height="1000">
+            <source srcset="images/hero-ima" media="(max-width: 1000px)">
+            <img id="hero-img" src="images/hero-image.webp" alt="hero image" width="1500" height="1000">
         </picture>
         <button class="call-to-action">Join Now!</button>
     </div>
@@ -46,23 +46,36 @@
                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
             </p>
         </section>
-        <section class="weather">
-            <h3>Weather</h3>
-            <label for="temp">Temperature (in °F)</label>
-            <input type="text" id="temp" name="fname"><br><br>
-            <label for="wind">Wind Speed: (in mph)</label>
-            <input type="text" id="wind" name="lname"><br><br>
+        <section class="windchill">
+            <h3>Windchill</h3>
+            <label for="temp">Temperature (in °F)<input type="text" id="temp" name="fname"></label>
+            <label for="wind">Wind Speed: (in mph)<input type="text" id="wind" name="lname"></label>
             <button class="weather-button">Calculate WindChill</button>
             <p class="windchill"></p>
         </section>
+        <section id="weather">
+            <h3>Weather</h3>
+            <img id="weathericon">
+            <p id="temp-desc"></p>
+            <h3>Next Days</h3>
+            <div id="forecast"></div>
+        </section>
         <section class="companies">
             <h3>Companies</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            </p>
+            <div class="logos">
+                <img src="images/abitab.webp" alt="abitab logo" loading="lazy" width="600" height="600">
+                <img src="images/caulín.webp" alt="caulin logo" loading="lazy" width="600" height="600">
+                <img src="images/club-remeros.webp" alt="remeros logo" loading="lazy" width="600" height="600">
+                <img src="images/macri.webp" alt="macri logo" loading="lazy" width="600" height="600">
+                <img src="images/san-pedro.webp" alt="san pedro logo" loading="lazy" width="600" height="600">
+                <img src="images/san-roque.webp" alt="san roque logo" loading="lazy" width="600" height="600">
+                <img src="images/tata.webp" alt="tata logo" loading="lazy" width="600" height="600">
+            </div>
         </section>
+        <div id="banner" class="banner">
+            <h3>Attend the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.</h3>
+            <button id="closeBanner">❌</button>
+        </div>
 
     </main>
     <footer>
@@ -73,6 +86,9 @@
     <script src="scripts/responsive-menu.js"></script>
     <script src="scripts/dark-mode.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/forecast-weather.js"></script>
+    <script src="scripts/banner.js"></script>
 </body>
 
 </html>
