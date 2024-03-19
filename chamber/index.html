@@ -24,7 +24,7 @@
     </header>
     <button id="menu"></button>
     <nav class="navigation">
-        <a href="">Home</a>
+        <a id="wayfinding" href="">Home</a>
         <a href="discover.html">Discover</a>
         <a href="directory.html">Directory</a>
         <a href="join.html">Join</a>
@@ -41,18 +41,20 @@
     <main>
         <section class="events">
             <h2>Events</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            </p>
-        </section>
-        <section class="windchill">
-            <h2>Windchill</h2>
-            <label for="temp">Temperature (in °F)<input type="text" id="temp" name="fname"></label>
-            <label for="wind">Wind Speed: (in mph)<input type="text" id="wind" name="lname"></label>
-            <button class="weather-button">Calculate WindChill</button>
-            <p class="windchill"></p>
+            <div class="event">
+                <img src="images/expoactiva-nacional.webp" alt="national expoactive" loading="lazy" width="600"
+                    height="600">
+                <p><strong>National Expoactive</strong> March 19 to March 23</p>
+            </div>
+            <div class="event">
+                <img src="images/corre-mercedes.webp" alt="marathon poster" loading="lazy" width="600" height="600">
+                <p><strong>5K and 10K Marathon</strong> March 24</p>
+            </div>
+            <div class="event">
+                <img src="images/encuentro-de-escultores.webp" alt="sculptors meeting" loading="lazy" width="600"
+                    height="600">
+                <p><strong>International sculptors meeting</strong> Apr 26 to Apr 28</p>
+            </div>
         </section>
         <section id="weather">
             <h2>Weather</h2>
@@ -60,6 +62,13 @@
             <p id="temp-desc"></p>
             <h2>Next Days</h2>
             <div id="forecast"></div>
+        </section>
+        <section class="windchill">
+            <h2>Windchill</h2>
+            <label for="temp">Temperature (in °F)<input type="text" id="temp" name="fname"></label>
+            <label for="wind">Wind Speed: (in mph)<input type="text" id="wind" name="lname"></label>
+            <button class="weather-button">Calculate WindChill</button>
+            <p class="windchill"></p>
         </section>
         <section class="companies">
             <h2>Companies</h2>
