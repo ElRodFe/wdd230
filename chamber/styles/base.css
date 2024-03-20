@@ -98,6 +98,7 @@ nav a:hover {
 }
 
 .call-to-action {
+    text-decoration: none;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -136,7 +137,13 @@ h2 {
 }
 
 .event {
-    display: block;
+    display: flex;
+    padding: 10px;
+}
+
+.event p {
+    display: flex;
+    flex-direction: column;
     padding: 10px;
 }
 
