@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Roboto:wght@300&display=swap');
+
+:root {
+    --primary-color: #63773A;
+    --secondary-color: #E1B302;
+    --tertiary-color: #000000;
+    --quaternary-color: #EBEBEB;
+    --manrope: "Manrope", "sans-serif";
+    --roboto: "Roboto", "sans-serif";
+}
