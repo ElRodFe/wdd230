@@ -11,7 +11,7 @@
 
 body {
     font-family: var(--roboto);
-    background-color: var(--primary-color);
+    background-color: var(--quaternary-color);
     color: var(--secondary-color);
 }
 
@@ -28,7 +28,7 @@ header {
     background-color: var(--primary-color);
     font-family: var(--manrope);
     font-size: 40px;
-    padding: 2px;
+    padding: 10px;
     align-items: center;
     justify-content: space-between;
 }
@@ -169,10 +169,10 @@ main {
 
 #types-of-rentals {
     grid-column: 1/3;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     border-radius: 5px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
-    color: var(--primary-color);
     padding: 10px;
 }
 
@@ -195,14 +195,26 @@ ul li {
 
 #weather {
     grid-column: 3/5;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     border-radius: 5px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
-    color: var(--primary-color);
     padding: 10px;
+    font-weight: bold;
 }
 
 #weather h2 {
     text-align: center;
     text-decoration: underline;
+}
+
+#weather img {
+    margin-right: 10px;
+    float: left;
+    width: 70px;
+    height: auto;
+}
+
+#today-weather {
+    margin-bottom: 100px;
 }
