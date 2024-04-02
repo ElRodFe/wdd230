@@ -9,15 +9,16 @@
     --roboto: "Roboto", "sans-serif";
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: var(--roboto);
+    background-color: var(--primary-color);
     color: var(--secondary-color);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--manrope);
 }
 
 /* ----HEADER---- */
@@ -27,13 +28,9 @@ header {
     background-color: var(--primary-color);
     font-family: var(--manrope);
     font-size: 40px;
-    padding: 5px;
+    padding: 2px;
     align-items: center;
     justify-content: space-between;
-}
-
-header h1 {
-    color: var(--secondary-color);
 }
 
 .logo {
@@ -99,12 +96,14 @@ nav a:hover {
 
 footer {
     display: flex;
+    background-color: var(--primary-color);
+    border-top: 1px solid var(--tertiary-color);
+    margin-top: 20px;
     padding: 10px;
     font-family: var(--roboto);
     font-size: 1rem;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--primary-color);
     color: var(--secondary-color);
 }
 
@@ -117,11 +116,12 @@ footer img {
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
 }
 
 .hero-box {
-    grid-column: 1/4;
+    grid-column: 1/5;
     position: relative;
     display: inline-block;
 }
@@ -136,6 +136,7 @@ main {
     position: absolute;
     color: var(--primary-color);
     background-color: rgba(225, 179, 2, .8);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
     border-radius: 5px;
     padding: 10px;
     top: 50%;
@@ -164,4 +165,44 @@ main {
 .hero-box .call-to-action:hover {
     background-color: var(--secondary-color);
     color: var(--primary-color);
+}
+
+#types-of-rentals {
+    grid-column: 1/3;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    color: var(--primary-color);
+    padding: 10px;
+}
+
+#types-of-rentals h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+ul {
+    font-weight: bold;
+    list-style-type: disc;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#weather {
+    grid-column: 3/5;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    color: var(--primary-color);
+    padding: 10px;
+}
+
+#weather h2 {
+    text-align: center;
+    text-decoration: underline;
 }
