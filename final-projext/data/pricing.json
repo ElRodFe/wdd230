@@ -2,6 +2,7 @@
     "rentals": [
         {
             "rental": "Honda Metro Scooter",
+            "img": "final-projext/images/honda-metropolitan.webp",
             "max-persons": "1",
             "reservation": [
                 {
@@ -18,6 +19,7 @@
         },
         {
             "rental": "Honda Dio Scooter",
+            "img": "final-projext/images/honda-dio.webp",
             "max-persons": "2",
             "reservation": [
                 {
@@ -34,6 +36,7 @@
         },
         {
             "rental": "Honda PCX150 Scooter",
+            "img": "final-projext/images/honda-pcx150.webp",
             "max-persons": "2",
             "reservation": [
                 {
@@ -50,6 +53,7 @@
         },
         {
             "rental": "Honda Pioneer ATV",
+            "img": "final-projext/images/honda-pioneer-1000.webp",
             "max-persons": "4",
             "reservation": [
                 {
@@ -66,6 +70,7 @@
         },
         {
             "rental": "Jeep Wrangler - 4 door with a/c",
+            "img": "final-projext/images/jeep-wrangler4.webp",
             "max-persons": "5",
             "reservation": [
                 {
@@ -82,6 +87,7 @@
         },
         {
             "rental": "Jeep Wrangler - 2 door",
+            "img": "final-projext/images/jeep-wrangler2.webp",
             "max-persons": "4",
             "reservation": [
                 {
