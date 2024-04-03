@@ -218,3 +218,22 @@ ul li {
 #today-weather {
     margin-bottom: 100px;
 }
+
+#max-temp {
+    position: fixed;
+    top: 10px;
+    background-color: var(--tertiary-color);
+    color: var(--quaternary-color);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+#max-temp button {
+    background-color: var(--tertiary-color);
+    color: var(--quaternary-color);
+    padding: 10px;
+}
+
+#max-temp button:hover {
+    background-color: var(--quaternary-color);
+    color: var(--tertiary-color);
+}

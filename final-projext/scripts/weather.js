@@ -1,5 +1,6 @@
 const today = document.querySelector("#today-weather");
 const tomorrow = document.querySelector("#tomorrow-weather");
+const maxTemp = document.querySelector("#max-temp");
 
 const weatherurl = "https://api.openweathermap.org/data/2.5/weather?lat=20.50&lon=-86.94&units=imperial&appid=918a9b08387f62f77d54e582cc9ef367";
 const forecasturl = "https://api.openweathermap.org/data/2.5/forecast?lat=20.50&lon=-86.94&units=imperial&appid=918a9b08387f62f77d54e582cc9ef367";
@@ -10,6 +11,7 @@ async function getWeather(url) {
         const response = await fetch(url);
         if (response.ok) {
             const data = await response.json();
+            console.log(data);
 
 
             displayTodayWeather(data);
@@ -31,6 +33,9 @@ function displayTodayWeather(data) {
     const temperature = data.main.temp;
     const temp = temperature.toFixed(0);
 
+    const temperatureMax = data.main.temp_max;
+    const tempMax = temperatureMax.toFixed(0);
+
     const humidity = data.main.humidity;
 
     const description = data.weather[0].description;
@@ -51,6 +56,11 @@ function displayTodayWeather(data) {
     today.appendChild(p1);
     today.appendChild(p2);
 
+    const p3 = document.createElement("p");
+    p3.textContent = `The max temperature expected for today is: ${tempMax}°F`;
+
+    maxTemp.appendChild(p3);
+
     function capitalizeWords(str) {
         return str.replace(/\b\w/g, char => char.toUpperCase());
     }
@@ -62,7 +72,6 @@ async function getForecast(url) {
         const response = await fetch(url);
         if (response.ok) {
             const data = await response.json();
-            console.log(data);
 
 
             displayTomorrowWeather(data.list[6]);
@@ -111,3 +120,13 @@ function displayTomorrowWeather(data) {
 
 getWeather(weatherurl);
 getForecast(forecasturl);
+
+// Button for closing top page's message
+
+const closeButton = document.createElement("button");
+closeButton.textContent = "X";
+maxTemp.appendChild(closeButton);
+
+closeButton.addEventListener('click', function () {
+    maxTemp.style.display = 'none';
+});
