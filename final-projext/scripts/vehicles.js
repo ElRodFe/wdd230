@@ -45,6 +45,7 @@ async function getData(url) {
             console.log(data);
 
             displayPrices(data.rentals);
+            displayVehicles(data.rentals);
         }
         else {
             throw Error(await response.text());
@@ -91,6 +92,27 @@ function displayPrices(data) {
     rf6.textContent = `${data[5].reservation[0].fullDay}`;
     wh6.textContent = `${data[5].walkIn[0].halfDay}`;
     wf6.textContent = `${data[5].walkIn[0].fullDay}`;
+}
+
+function displayVehicles(rentals) {
+    rentals.forEach((rental) => {
+        const card = document.createElement("section");
+        const p = document.createElement("p");
+        const img = document.createElement("img");
+
+        p.textContent = `${rental.rental}`;
+
+        img.setAttribute("src", `${rental.img}`);
+        img.setAttribute("alt", `${rental.rental} image`);
+        img.setAttribute("loading", "lazy");
+        img.setAttribute("width", "200");
+        img.setAttribute("height", "200");
+
+        card.appendChild(img);
+        card.appendChild(p);
+
+        cards.appendChild(card);
+    })
 }
 
 getData(url);
