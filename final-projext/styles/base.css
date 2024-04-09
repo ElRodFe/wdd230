@@ -300,3 +300,124 @@ ul li {
 }
 
 /*----RESERVATIONS PAGE MAIN----*/
+#reservations {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+#reservation-form {
+    margin: 20px;
+    padding: 10px;
+    background-color: var(--primary-color);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+#reservation-form h2 {
+    text-align: center;
+}
+
+#thanks {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: var(--primary-color);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+#thanks div {
+    font-size: 2rem;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: var(--quaternary-color);
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+fieldset {
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    padding: .8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+select:required,
+input:required {
+    border-left: solid 7px red;
+}
+
+select:required:valid,
+input:required:valid {
+    border-left: solid 7px green;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+#agreements {
+    margin: 20px;
+    padding: 10px 40px;
+    background-color: var(--primary-color);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+#agreements h2 {
+    text-align: center;
+}
+
+#agreements li {
+    padding-top: 2rem;
+    font-size: 1.2rem;
+}
