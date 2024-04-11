@@ -444,11 +444,11 @@ input[type="submit"]:hover {
 }
 
 .house {
-    margin: 5px;
+    margin-bottom: 1rem;
     padding-left: 20px;
     width: 100%;
-    max-width: 400px;
-    border: 1px solid var(--tertiary-color)
+    max-width: 300px;
+    border: 1px solid var(--primary-color);
 }
 
 #contact-form {
@@ -462,6 +462,7 @@ input[type="submit"]:hover {
 }
 
 #addresses {
+    display: flex;
     text-align: center;
     grid-column: 1/3;
     border-radius: 10px;
@@ -484,4 +485,90 @@ input[type="submit"]:hover {
     background-color: var(--primary-color);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
     border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+
+    header {
+        display: flex;
+        font-size: 1rem;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .social-media-links img {
+        display: block;
+        width: 40px;
+    }
+
+    .social-media-links img:hover {
+        width: 45px;
+        height: auto;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        max-width: 435px;
+    }
+
+    #home-page {
+        display: block;
+    }
+
+    #home-page section {
+        margin: 10px;
+    }
+
+    .hero-box {
+        display: block;
+        position: static;
+    }
+
+    .hero-box div {
+        position: relative;
+        transform: none;
+        left: 0%;
+    }
+
+    .hero-box p {
+        font-size: 20px;
+    }
+
+    footer div {
+        margin: 10px;
+    }
+
+    #rentals {
+        display: block;
+    }
+
+    #vehicle-cards {
+        display: block;
+        margin: 10px;
+    }
+
+    #vehicle-cards img {
+        padding: 10px;
+    }
+
+    #reservations {
+        display: block;
+    }
+
+    #contact-page {
+        display: block;
+    }
+
+    #addresses {
+        display: block;
+    }
+
+    #addresses iframe {
+        max-width: 450px;
+    }
 }
